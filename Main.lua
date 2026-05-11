@@ -86,7 +86,7 @@ local VisualTab = Window:CreateTab("Visual", "eye")
 local WorldTab = Window:CreateTab("World", "globe")
 local UtilityTab = Window:CreateTab("Utility", "settings")
 
-local BASE_URL = "https://raw.githubusercontent.com/MoonRobloxx/MoonHub/main/Scripts/"
+local BASE_URL = "https://raw.githubusercontent.com/MoonRobloxx/MoonHub/master/Scripts/"
 
 local function loadScript(tab, path)
     local success, result = pcall(function()
